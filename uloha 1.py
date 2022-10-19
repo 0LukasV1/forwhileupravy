@@ -1,7 +1,10 @@
-for i in range(1, 100):
-
-    if i % 3 == 0:
-
-        print(i, end=' ')
+x=0
+výsledok=0
+y=input("Zadaj mi krok medzi číslami:")
+y=int(y)
+while x <= 100:
+    x+=y
+    výsledok+=1
+print("Celkový počet načítaných čísel je:",výsledok)
 
 
