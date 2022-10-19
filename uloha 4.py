@@ -10,10 +10,3 @@ while x != 0:
     počet+=1
 výsledok=y/int(počet)
 print("Artitmetický priemer čísel bol",výsledok)
-l = -1
-
-for u in range(1,100):
-
-        l = l + u
-
-print('sucet =', l)
